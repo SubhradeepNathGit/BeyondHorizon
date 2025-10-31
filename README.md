@@ -16,7 +16,7 @@ Check Live: https://beyond-horizon-bay.vercel.app
 A **smooth, fully responsive landing page** for a modern **global luxury travel agency**, built using **HTML**, **CSS** **Bootstrap 5**.
 Designed to deliver a smooth, high-end user experience highlighting **top destinations** and **seamless travel bookings**.
 
----
+
 
 ## Tech Stack & Libraries
 
@@ -26,7 +26,7 @@ Designed to deliver a smooth, high-end user experience highlighting **top destin
 ![Font Awesome](https://img.shields.io/badge/Font%20Awesome-6.7.2-339AF0?logo=fontawesome&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
----
+
 
 ## Features
 
@@ -50,7 +50,7 @@ Designed to deliver a smooth, high-end user experience highlighting **top destin
 * **FAQ Accordion:** Built using **Bootstrap’s collapse** for interactive Q&A.
 * **AOS Integration:** Smooth **on-scroll animations** for a modern visual experience.
 
----
+
 
 ## 🛠️ Technology Overview
 
@@ -63,9 +63,9 @@ Designed to deliver a smooth, high-end user experience highlighting **top destin
 | **Typography** | [Google Fonts](https://fonts.google.com/) | *Playfair Display*, *Inter*, *Montserrat* |
 | **Styling** | `/css/style.css` | Custom theme, color palette, and layout |
 
----
 
-## 🚀 Getting Started
+
+## Getting Started
 
 ### Prerequisites
 All you need is a **modern web browser** (e.g., Chrome, Edge, Safari).
@@ -100,4 +100,4 @@ Developed by **Subhradeep Nath**
 
 Frontend Developer | Passionate about crafting elegant, responsive, and immersive web interfaces.
 
-⭐ If you like this project, please give it a star on GitHub — it helps a lot!
+⭐ If you like this project, please give it a star on GitHub — it motivates a lot!
