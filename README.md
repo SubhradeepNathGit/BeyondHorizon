@@ -4,6 +4,11 @@
   <img src="./preview/preview1.png" width="33%">
   <img src="./preview/preview2.png" width="33%">
   <img src="./preview/Screenshot 2025-10-31 141137.png" width="33%">
+
+  <img src="./preview/Screenshot 2025-10-31 153949.png" width="33%">
+  <img src="./preview/Screenshot 2025-10-31 153827.png" width="33%">
+  <img src="./preview/Screenshot 2025-10-31 154033.png" width="33%">
+  
 </p>
 Check Live: https://beyond-horizon-bay.vercel.app
 
