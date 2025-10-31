@@ -3,12 +3,13 @@
 ![BeyondHorizon Preview](./assets/images/preview.png)
 > 🖥️ **Live Demo:** [beyond-horizon-bay.vercel.app](https://beyond-horizon-bay.vercel.app)
 
-A **stunning, fully responsive landing page** for a modern **global luxury travel agency**, built using **Bootstrap 5** and modern frontend libraries.
+
+A **stunning, fully responsive landing page** for a modern **global luxury travel agency**, built using **HTML**, **CSS** **Bootstrap 5**.
 Designed to deliver a smooth, high-end user experience highlighting **top destinations** and **seamless travel bookings**.
 
 ---
 
-## 🧱 Tech Stack & Libraries
+## Tech Stack & Libraries
 
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.3-7952B3?logo=bootstrap&logoColor=white)
 ![Swiper.js](https://img.shields.io/badge/Swiper.js-11.1.0-0080FF?logo=swiper&logoColor=white)
@@ -18,7 +19,7 @@ Designed to deliver a smooth, high-end user experience highlighting **top destin
 
 ---
 
-## ✨ Features
+## Features
 
 ### Navigation & Hero Section
 * **Responsive Navbar:** Includes logo, search bar, and adaptive navigation links.
@@ -69,22 +70,22 @@ All you need is a **modern web browser** (e.g., Chrome, Edge, Safari).
 2. **Open the Project**
    Simply open `index.html` in your browser — all CSS/JS dependencies are loaded from CDNs.
 
----
 
-## 🤝 Contributing
+
+## Contributing
 
 Contributions, feature enhancements, and design suggestions are always welcome!
 Open a pull request or issue to help improve BeyondHorizon.
 
----
 
-## 📄 License
+
+## License
 
 Released under the **MIT License** — you’re free to use, modify, and distribute it for personal or commercial projects.
 
----
 
-## 👨‍💻 Author
+
+##  Author
 
 Developed by **Subhradeep Nath**
 
