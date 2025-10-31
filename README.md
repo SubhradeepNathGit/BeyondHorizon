@@ -4,7 +4,7 @@
 > 🖥️ **Live Demo:** [beyond-horizon-bay.vercel.app](https://beyond-horizon-bay.vercel.app)
 
 
-A **stunning, fully responsive landing page** for a modern **global luxury travel agency**, built using **HTML**, **CSS** **Bootstrap 5**.
+A **smooth, fully responsive landing page** for a modern **global luxury travel agency**, built using **HTML**, **CSS** **Bootstrap 5**.
 Designed to deliver a smooth, high-end user experience highlighting **top destinations** and **seamless travel bookings**.
 
 ---
