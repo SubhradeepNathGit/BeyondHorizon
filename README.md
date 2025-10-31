@@ -1,7 +1,11 @@
 # BeyondHorizon
 
-![BeyondHorizon Preview](./assets/images/preview.png)
-> 🖥️ **Live Demo:** [beyond-horizon-bay.vercel.app](https://beyond-horizon-bay.vercel.app)
+<p align="center">
+  <img src="./preview/preview1.png" width="33%">
+  <img src="./preview/preview2.png" width="33%">
+  <img src="./preview/Screenshot 2025-10-31 141137.png" width="33%">
+</p>
+Check Live: https://beyond-horizon-bay.vercel.app
 
 
 A **smooth, fully responsive landing page** for a modern **global luxury travel agency**, built using **HTML**, **CSS** **Bootstrap 5**.
