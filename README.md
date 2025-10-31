@@ -1,4 +1,4 @@
-# BeyondHorizon — Global Travel Experiences
+# BeyondHorizon
 
 ![BeyondHorizon Preview](./assets/images/preview.png)
 > 🖥️ **Live Demo:** [beyond-horizon-bay.vercel.app](https://beyond-horizon-bay.vercel.app)
