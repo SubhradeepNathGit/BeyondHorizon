@@ -1,8 +1,3 @@
-/* ================================
-   HOLIDAY.COM - PREMIUM LUXURY THEME
-   Sophisticated Black & Bronze Design
-   ================================ */
-
 /* CSS Variables */
 :root {
     --bronze: #a58958;
@@ -43,9 +38,6 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--white);
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 .container {
     max-width: 1320px;
@@ -677,19 +669,41 @@ html {
 .partners-section {
     padding: 100px 0;
     background: var(--black);
+    overflow: hidden;
 }
 
 .partners-section h2 {
     font-size: clamp(2rem, 4vw, 3rem);
 }
 
-.partners-logos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    flex-wrap: wrap;
+.partners-marquee {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
     margin-top: 3rem;
+    padding: 20px 0;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 3rem;
+    width: fit-content;
+    will-change: transform;
+    animation: marqueeScroll 40s linear infinite;
+}
+
+/* Pause animation on hover */
+.marquee-content:hover {
+    animation-play-state: paused;
+}
+
+@keyframes marqueeScroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
 }
 
 .partner-logo {
@@ -703,6 +717,7 @@ html {
     border-radius: 15px;
     transition: var(--transition);
     cursor: pointer;
+    flex-shrink: 0;
 }
 
 .partner-logo:hover {
@@ -720,6 +735,78 @@ html {
 .partner-logo:hover i {
     color: var(--bronze-light);
     transform: scale(1.1);
+}
+
+/* Optional: Add subtle gradient fade on edges */
+.partners-marquee::before,
+.partners-marquee::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.partners-marquee::before {
+    left: 0;
+    background: linear-gradient(to right, var(--black), transparent);
+}
+
+.partners-marquee::after {
+    right: 0;
+    background: linear-gradient(to left, var(--black), transparent);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .partners-section {
+        padding: 60px 0;
+    }
+    
+    .partners-marquee {
+        margin-top: 2rem;
+    }
+    
+    .marquee-content {
+        gap: 2rem;
+        animation: marqueeScroll 30s linear infinite;
+    }
+    
+    .partner-logo {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .partner-logo i {
+        font-size: 2.5rem;
+    }
+    
+    .partners-marquee::before,
+    .partners-marquee::after {
+        width: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    .marquee-content {
+        gap: 1.5rem;
+    }
+    
+    .partner-logo {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .partner-logo i {
+        font-size: 2rem;
+    }
+    
+    .partners-marquee::before,
+    .partners-marquee::after {
+        width: 50px;
+    }
 }
 
 /* Services Section */
